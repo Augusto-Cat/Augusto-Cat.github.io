@@ -1,0 +1,18 @@
+
+#header  {
+    background-size: cover;
+    background-image: linear-gradient(to top, rgba(33, 37, 41, 1), rgba(33, 37, 41, 0)), url(Media/bg-heade.jpg);
+}
+
+.fontePixel {
+    font-family: 'Holtwood One SC', serif;
+    font-family: 'Press Start 2P', cursive;
+  }
+  
+  .card:hover {
+    box-shadow: 0px 0px 30px 1px #0dcaf0;
+  }
+
+  .card {
+    box-shadow: 0px 0px 10px 1px rgb(0, 0, 0, 0.5);
+  }

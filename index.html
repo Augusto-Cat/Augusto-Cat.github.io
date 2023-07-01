@@ -2,14 +2,145 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <script src="funcoes.js"></script>
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&family=Press+Start+2P&display=swap');
+    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.0/css/all.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>My website</title>
 </head>
-<body>
-   <h1> Augusto Cesar Catuzzo </h1>
-   <h2> Site pessoal para front1 - TSI - UTFPR</h2>
+<body class="bg-dark">
+    <header id="header" style="height: 100vh">
+        <h1 class="d-flex align-items-center justify-content-center text-warning fontePixel" style="height: 100vh">Olá, me chamo Augusto Catuzzo</h1>
+      </header>
+      <div class="mt-5"></div>
+    <div id="PersonalInfo" class="container">
+        <div class="row">
+          <div class="col mx-2">
+            <h2 class="text-info fontePixel "> Sobre mim </h2>
+            <p class="text-light"> É um prazer recebê-lo aqui, onde compartilho um pouco sobre quem sou, minhas paixões e interesses. Este espaço é um reflexo da minha jornada pessoal e profissional, onde busco inspirar, informar e conectar-me com pessoas incríveis como você.</p>
+            <p class="text-light">Sou um entusiasta de programação. Essa paixão me levou a explorar e mergulhar em projetos empolgantes, onde pretendo aplicar minha criatividade e habilidades para resolver problemas e fazer a diferença. Estou sempre aberto a novas oportunidades e colaborações, então sinta-se à vontade para entrar em contato se você compartilha desses interesses.</p>
+            <p class="text-light">Durante o ensino médio eu participei de um clube de ciências e conduzi um trabalho de iniciação científica sobre o efeito fungitóxico de extratos vegetais. Esse projeto me proporcionou a oportunidade de participar da Regeron ISEF, a maior feira de ensino médio do mundo, nos Estados Unidos. Além disso, tive a conquista de alcançar o terceiro lugar na área de ciências biológicas na Mostratec, a maior feira de ciências da América Latina.</p>
+            <p class="text-light">Tenho dois adoráveis gatos que foram resgatados das ruas e agora fazem parte da minha família. O gato laranja se chama Itadori, enquanto o outro é chamado Megumi. Ambos os nomes são inspirados no anime Jujutsu Kaisen, uma das minhas animações favoritas.</p>
+            <p class="text-light">Além dos gatos, também tenho uma cachorra chamada Sofia. Todos esses animais foram resgatados das ruas e receberam cuidados e amor em meu lar.</p>
+          </div>
+          <div class="col mx-2 d-flex align-items-center">
+            <img src="Media/mypic.jpg" alt="Foto de um gato laranja sendo segurado por um homem de cabelos longos olhando para a camera" class="img-fluid rounded-circle border border-5">
+          </div>
+        </div>
+      </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col mt-5 ">
+          <h6 class="text-uppercase fontePixel text-warning">Minhas bandas preferidas </h6>
+          <ul class="list-unstyled text-light">
+            <li>Lagum</li>
+            <li>Kamaitachi</li>
+            <li>Moon Walker</li>
+            <li>MC Sid</li>
+          </ul>
+        </div>
+        
+        <div class="col mt-5">
+          <h6 class="text-uppercase fontePixel text-warning">Jogos Favoritos</h6>
+          <ul class="list-unstyled text-light">
+            <li>Celeste</li>
+            <li>Growing Up</li>
+            <li>Sally Face</li>
+            <li>Sekiro: shadow dies twice</li>
+          </ul>
+        </div>
+        
+        <div class="col mt-5">
+          <h6 class="text-uppercase fontePixel text-warning">animações favoritas</h6>
+          <ul class="list-unstyled text-light">
+            <li>Blue period</li>
+            <li>Jujutsu Kaisen</li>
+            <li>Ōsama Ranking</li>
+            <li>Parasite</li>
+          </ul>
+        </div>
+        
+        <div class="col mt-5">
+          <h6 class="text-uppercase fontePixel text-warning">Filmes Favoritos</h6>
+          <ul class="list-unstyled text-light">
+            <li>Your name</li>
+            <li>Her</li>
+            <li>Homem-aranha no aranha-verso</li>
+            <li>Princesa mononoke</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    <div class="mt-3"></div>
+    <div class="pb-5"></div>
+    <h2 class="text-center text-info fontePixel pb-5">Meus projetos</h2>
+    <div class="container">
+    <div class="d-sm-flex row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100 ms-4 bg-dark text-light">
+          <img src="Media/projeto1.png" class="card-img-top" alt="...">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title text-warning">Jogo sem nome</h5>
+            <p class="card-text">Um jogo rapido feito somente com CSS, HTML, e JavaScrypt para a materia de fundamentos de programação</p>
+            <a href="https://github.com/AugustoCat/Game" target="_blank" class="btn btn-outline-info justify-content-center d-flex mt-auto border-info border-2">Link</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 ms-4 bg-dark text-light">
+          <img src="Media/projeto2.png" class="card-img-top" alt="...">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title text-warning">Site estilo CSS-Zengarden</h5>
+            <p class="card-text">Esse foi um site que desenvolvi para a disciplina de front-1, nele eu so pude fazer alteracoes no css, sem uso de frameworks</p>
+            <a href="http://maverick.td.utfpr.edu.br/jardimweb/plantas/614/" target="_blank" class="btn btn-outline-info justify-content-center d-flex mt-auto border-info border-2">Link</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card  h-100 ms-4 bg-dark text-light">
+          <img src="Media/projeto3.png" class="card-img-top" alt="...">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title text-warning">Meu site pessoal</h5>
+            <p class="card-text">Esté o site que você esta atualmente, meu primeiro "portifolio" por assim se dizer.</p>
+            <a href="#" class="btn btn-outline-info justify-content-center d-flex mt-auto border-info border-2">Link</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="my-5"></div>
+    <footer>
+      <hr class="text-white border-5 footer my-5">
+      <h5 class="text-warning fontePixel text-center">Minhas redes sociais</h2>
+      <div class="container text-center ">
+        <a href="https://www.linkedin.com/in/augusto-catuzzo-29366a20a" target="_blank">
+          <button class="btn btn-outline-info" type="button">
+            <span> <i class="fa-brands fa-linkedin"></i> </span> <span>Linkedin</span>
+          </button>
+        </a>
+        <a href="https://www.instagram.com/acatuzzo/" target="_blank">
+          <button class="btn btn-outline-danger" type="button">
+            <span> <i class="fa-brands fa-instagram"></i> </span> <span>instagram</span>
+          </button>
+        </a>
+        <a href="https://discord.com/users/305503719657701378" target="_blank">
+          <button class="btn btn-outline-secondary" type="button">
+            <span> <i class="fa-brands fa-discord"></i> </span> <span>Discord</span>
+          </button>
+        </a>         
+        <a href="https://github.com/AugustoCat" target="_blank">
+          <button class="btn btn-outline-light" type="button">
+            <span><i class="fa-brands fa-github"></i></span> <span>GitHub</span>
+          </button>
+        </a>        
+      </div>
+      <div class="my-5"></div>
+    </footer>
 </body>
 </html>
